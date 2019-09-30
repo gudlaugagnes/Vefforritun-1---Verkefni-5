@@ -62,7 +62,7 @@ main {
 /* Skrifaður texti innan korts */
 
 .card__title{
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 24px;
     margin-bottom: 18px;
 
@@ -76,7 +76,7 @@ main {
 .card__text{
     font-size: 1rem;
     line-height: 20px;
-    overflow: scroll;
+    overflow: hidden;
    
 }
 
@@ -99,6 +99,7 @@ main {
 .card__list{
     list-style: none;
     margin-top: auto;
+    padding-top: 5px;
    
 }
 
