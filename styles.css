@@ -24,7 +24,6 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     
-
 }
 
 .cards__card{
@@ -53,14 +52,18 @@ main {
     line-height: 24px;
     margin-bottom: 10px;
 }
+
 .card__content{
     display: flex;
 
 }
+
 .card__text{
     font-size: 1rem;
     line-height: 20px;
-    overflow: auto;
+    
+    overflow: scroll;
+
    
 }
 
